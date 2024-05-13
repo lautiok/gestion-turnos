@@ -1,0 +1,47 @@
+/* Estilos para el formulario de creación de usuario */
+.crear-usuario {
+    width: 400px; /* Ancho del formulario */
+    margin: 20px auto; /* Centrar el formulario */
+    padding: 20px; /* Añadir un poco de relleno alrededor del formulario */
+    border: none; /* Sin borde */
+    border-radius: 12px; /* Borde redondeado */
+    background-color: #f8f9fa; /* Fondo gris muy claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-family: 'Poppins', sans-serif; /* Fuente elegante */
+}
+
+/* Estilos para las etiquetas */
+.crear-usuario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Color gris oscuro para las etiquetas */
+    font-weight: 500; /* Ligera negrita */
+}
+
+/* Estilos para los campos de entrada */
+.crear-usuario input {
+    width: 100%; /* Ancho completo del campo */
+    margin-bottom: 15px; /* Espacio entre los campos */
+    border-radius: 6px; /* Borde ligeramente redondeado */
+    padding: 8px; /* Relleno */
+    border: 1px solid #ccc; /* Borde gris */
+}
+
+/* Estilo para el botón de enviar */
+.crear-usuario button[type="submit"] {
+    display: block;
+    width: 100%; /* Ancho completo del botón */
+    padding: 12px;
+    background-color: #ff6f61; /* Color rosa suave para el botón */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Borde redondeado */
+    font-weight: 600; /* Negrita */
+    cursor: pointer; /* Cambiar cursor al apuntador cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+.crear-usuario button[type="submit"]:hover {
+    background-color: #ff5a4a; /* Color rosa más oscuro */
+}

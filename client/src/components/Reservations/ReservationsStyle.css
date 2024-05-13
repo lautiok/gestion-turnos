@@ -1,0 +1,121 @@
+/* Estilo general para la sección de reservas */
+.reservas {
+    width: 1500px; /* Ancho de la sección */
+    margin: 20px auto; /* Centrar la sección */
+    padding: 20px; /* Añadir un poco de relleno alrededor de la sección */
+    border: none; /* Sin borde */
+    border-radius: 12px; /* Borde redondeado */
+    background-color: #f8f9fa; /* Fondo gris muy claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-family: 'Poppins', sans-serif; /* Fuente elegante */
+}
+
+.reservas a {
+    text-decoration: none;
+    background-color: #ff6f61; /* Color rosa suave */
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px; /* Borde redondeado */
+    padding: 5px 8px;
+    cursor: pointer; /* Cambiar cursor al apuntador cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+.reservas a:hover {
+    background-color: #ff5a4a; /* Color rosa más oscuro */
+}
+
+
+/* Estilo para el título de la sección */
+.reservas h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center; /* Centramos el texto */
+}
+
+/* Estilos para la tabla de reservas */
+.reservas table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las celdas de la tabla */
+.reservas td {
+    padding: 10px;
+    border: none;
+    text-align: center;
+    color: #555; /* Color del texto */
+}
+
+/* Estilo para las filas de la tabla */
+.reservas tr {
+    margin-bottom: 10px; /* Espacio entre filas */
+}
+
+/* Estilo para las reservas */
+.reserva {
+    display: flex; /* Usamos flexbox para organizar los elementos */
+    justify-content: space-between; /* Espaciar los elementos dentro de la reserva */
+    align-items: center; /* Alinear los elementos verticalmente */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.botones-reserva {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilo para los botones de cancelar reserva */
+.reserva button {
+    background-color: #ff6f61; /* Color rosa suave */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Borde redondeado */
+    padding: 8px 12px;
+    cursor: pointer; /* Cambiar cursor al apuntador cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+.reserva button:hover {
+    background-color: #ff5a4a; /* Color rosa más oscuro */
+}
+
+/* Estilo para los botones de cancelar reserva */
+td button {
+    background-color: #ff6f61; /* Color rosa suave */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Borde redondeado */
+    padding: 8px 12px;
+    cursor: pointer; /* Cambiar cursor al apuntador cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+td button:hover {
+    background-color: #ff5a4a; /* Color rosa más oscuro */
+}
+
+@media screen and (max-width: 568px) {
+    .reservas {
+        width: 90%;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .reservas h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .reservas table {
+        margin-bottom: 10px;
+    }
+    
+}

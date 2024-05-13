@@ -1,0 +1,78 @@
+/* FormularioDeReserva.css */
+
+/* Estilos generales para el formulario */
+.formulario-de-reserva {
+    width: 400px; /* Ancho del formulario */
+    margin: 20px auto; /* Centrar el formulario */
+    padding: 20px; /* Añadir un poco de relleno alrededor del formulario */
+    border: none; /* Sin borde */
+    border-radius: 12px; /* Borde redondeado */
+    background-color: #f8f9fa; /* Fondo gris muy claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-family: 'Poppins', sans-serif; /* Fuente elegante */
+}
+
+.select {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 40px;
+    z-index: 100; 
+}
+
+.fecha {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hora {
+    margin-top: 1rem;
+}
+
+
+.boton-crear-reserva {
+    width: 100%;
+    height: 40px;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-crear-reserva:hover {
+    background-color: #ff5a4a;
+}
+
+ 
+
+
+
+
+
+
+
+.nav-reservas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-reservas a {
+    margin: 0 10px;
+}
+
+.nav-reservas input {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #555;
+}
